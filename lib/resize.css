@@ -1,0 +1,20 @@
+/*
+
+  RESIZE HELPERS
+
+*/
+
+@media (--breakpoint-sm) {
+  .sm-rsz-v { resize: vertical; }
+  .sm-rsz-h { resize: horizontal; }
+}
+
+@media (--breakpoint-md) {
+  .md-rsz-v { resize: vertical; }
+  .md-rsz-h { resize: horizontal; }
+}
+
+@media (--breakpoint-lg) {
+  .lg-rsz-v { resize: vertical; }
+  .lg-rsz-h { resize: horizontal; }
+}

@@ -1,0 +1,185 @@
+/*
+
+  TEXT HELPERS
+
+*/
+
+@media (--breakpoint-sm) {
+  .sm-ta-c { text-align: center; }
+  .sm-ta-l { text-align: left; }
+  .sm-ta-r { text-align: right; }
+}
+
+@media (--breakpoint-md) {
+  .md-ta-c { text-align: center; }
+  .md-ta-l { text-align: left; }
+  .md-ta-r { text-align: right; }
+}
+
+@media (--breakpoint-lg) {
+  .lg-ta-c { text-align: center; }
+  .lg-ta-l { text-align: left; }
+  .lg-ta-r { text-align: right; }
+}
+
+@media (--breakpoint-sm) {
+  .sm-tt-n { text-transform: none; }
+  .sm-tt-u { text-transform: uppercase; }
+  .sm-tt-l { text-transform: lowercase; }
+  .sm-tt-c { text-transform: capitalize; }
+}
+
+@media (--breakpoint-md) {
+  .md-tt-n { text-transform: none; }
+  .md-tt-u { text-transform: uppercase; }
+  .md-tt-l { text-transform: lowercase; }
+  .md-tt-c { text-transform: capitalize; }
+}
+
+@media (--breakpoint-lg) {
+  .lg-tt-n { text-transform: none; }
+  .lg-tt-u { text-transform: uppercase; }
+  .lg-tt-l { text-transform: lowercase; }
+  .lg-tt-c { text-transform: capitalize; }
+}
+
+@media (--breakpoint-sm) {
+  .sm-fw-300 { font-weight: 300; /* light */ }
+  .sm-fw-600 { font-weight: 600; /* semi-bold */ }
+  .sm-fw-700 { font-weight: 700; /* bold */ }
+  .sm-fw-500 { font-weight: 500; /* normal */ }
+}
+
+@media (--breakpoint-md) {
+  .md-fw-300 { font-weight: 300; /* light */ }
+  .md-fw-600 { font-weight: 600; /* semi-bold */ }
+  .md-fw-700 { font-weight: 700; /* bold */ }
+  .md-fw-500 { font-weight: 500; /* normal */ }
+}
+
+@media (--breakpoint-lg) {
+  .lg-fw-300 { font-weight: 300; /* light */ }
+  .lg-fw-600 { font-weight: 600; /* semi-bold */ }
+  .lg-fw-700 { font-weight: 700; /* bold */ }
+  .lg-fw-500 { font-weight: 500; /* normal */ }
+}
+
+@media (--breakpoint-sm) {
+  .sm-fs-i { font-style: italic; }
+  .sm-fs-o { font-style: oblique; }
+}
+
+@media (--breakpoint-md) {
+  .md-fs-i { font-style: italic; }
+  .md-fs-o { font-style: oblique; }
+}
+
+@media (--breakpoint-lg) {
+  .lg-fs-i { font-style: italic; }
+  .lg-fs-o { font-style: oblique; }
+}
+
+@media (--breakpoint-sm) {
+  .sm-td-n { text-decoration: none; }
+  .sm-td-o { text-decoration: overline; }
+  .sm-td-lt { text-decoration: line-through; }
+  .sm-td-u { text-decoration: underline; }
+}
+
+@media (--breakpoint-md) {
+  .md-td-n { text-decoration: none; }
+  .md-td-o { text-decoration: overline; }
+  .md-td-lt { text-decoration: line-through; }
+  .md-td-u { text-decoration: underline; }
+}
+
+@media (--breakpoint-lg) {
+  .lg-td-n { text-decoration: none; }
+  .lg-td-o { text-decoration: overline; }
+  .lg-td-lt { text-decoration: line-through; }
+  .lg-td-u { text-decoration: underline; }
+}
+
+@media (--breakpoint-sm) {
+  .sm-va-t { vertical-align: top; }
+  .sm-va-m { vertical-align: center; }
+  .sm-va-b { vertical-align: bottom; }
+}
+
+@media (--breakpoint-md) {
+  .md-va-t { vertical-align: top; }
+  .md-va-m { vertical-align: center; }
+  .md-va-b { vertical-align: bottom; }
+}
+
+@media (--breakpoint-lg) {
+  .lg-va-t { vertical-align: top; }
+  .lg-va-m { vertical-align: center; }
+  .lg-va-b { vertical-align: bottom; }
+}
+
+@media (--breakpoint-sm) {
+  .sm-truncate {
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+  }
+
+  .sm-reset-font {
+    text-decoration: none;
+    text-shadow: none;
+    text-transform: none;
+    letter-spacing: normal;
+  }
+
+  .sm-reset-font-size {
+    line-height: 1ex;
+    height: 1ex;
+  }
+}
+
+@media (--breakpoint-md) {
+  .md-truncate {
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+  }
+
+  .md-reset-font {
+    text-decoration: none;
+    text-shadow: none;
+    text-transform: none;
+    letter-spacing: normal;
+  }
+
+  .md-reset-font-size {
+    line-height: 1ex;
+    height: 1ex;
+  }
+}
+
+@media (--breakpoint-lg) {
+  .lg-truncate {
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+  }
+
+  .lg-reset-font {
+    text-decoration: none;
+    text-shadow: none;
+    text-transform: none;
+    letter-spacing: normal;
+  }
+
+  .lg-reset-font-size {
+    line-height: 1ex;
+    height: 1ex;
+  }
+}

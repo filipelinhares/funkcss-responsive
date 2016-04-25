@@ -1,0 +1,50 @@
+/*
+
+  ALIGNMENT HELPERS
+
+*/
+
+/* # ========== Small screen */
+
+@media (--breakpoint-sm) {
+  .sm-align-both {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .sm-align-vertical {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+/* # ========== Medium screen */
+
+@media (--breakpoint-md) {
+  .md-align-both {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .md-align-vertical {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+/* # ========== Large screen */
+
+@media (--breakpoint-lg) {
+  .lg-align-both {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .lg-align-vertical {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}

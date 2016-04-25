@@ -1,0 +1,20 @@
+/*
+
+  WORD WRAP HELPERS
+
+*/
+
+@media (--breakpoint-sm) {
+  .sm-wow-bw { word-wrap: break-word; }
+  .sm-wow-n { word-wrap: normal; }
+}
+
+@media (--breakpoint-md) {
+  .md-wow-bw { word-wrap: break-word; }
+  .md-wow-n { word-wrap: normal; }
+}
+
+@media (--breakpoint-lg) {
+  .lg-wow-bw { word-wrap: break-word; }
+  .lg-wow-n { word-wrap: normal; }
+}

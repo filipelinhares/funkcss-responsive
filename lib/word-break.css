@@ -1,0 +1,23 @@
+/*
+
+  WORD BREAK HELPERS
+
+*/
+
+@media (--breakpoint-sm) {
+  .sm-wob-n { word-break: normal; }
+  .sm-wob-ba { word-break: break-all; }
+  .sm-wob-k { word-break: keep-all; }
+}
+
+@media (--breakpoint-md) {
+  .md-wob-n { word-break: normal; }
+  .md-wob-ba { word-break: break-all; }
+  .md-wob-k { word-break: keep-all; }
+}
+
+@media (--breakpoint-lg) {
+  .lg-wob-n { word-break: normal; }
+  .lg-wob-ba { word-break: break-all; }
+  .lg-wob-k { word-break: keep-all; }
+}

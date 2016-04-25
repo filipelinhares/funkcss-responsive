@@ -1,0 +1,29 @@
+/*
+
+  OBJECT-FIT HELPERS
+
+*/
+
+@media (--breakpoint-sm) {
+  .sm-of-ct { object-fit: contain; }
+  .sm-of-cv { object-fit: cover; }
+  .sm-of-f { object-fit: fill; }
+  .sm-of-n { object-fit: none; }
+  .sm-of-sd { object-fit: scale-down; }
+}
+
+@media (--breakpoint-md) {
+  .md-of-ct { object-fit: contain; }
+  .md-of-cv { object-fit: cover; }
+  .md-of-f { object-fit: fill; }
+  .md-of-n { object-fit: none; }
+  .md-of-sd { object-fit: scale-down; }
+}
+
+@media (--breakpoint-lg) {
+  .lg-of-ct { object-fit: contain; }
+  .lg-of-cv { object-fit: cover; }
+  .lg-of-f { object-fit: fill; }
+  .lg-of-n { object-fit: none; }
+  .lg-of-sd { object-fit: scale-down; }
+}

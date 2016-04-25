@@ -1,0 +1,38 @@
+{
+  "name": "funkcss-responsive",
+  "version": "0.1.0",
+  "description": "Functional CSS",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/filipelinhares/funkcss-responsive.git"
+  },
+  "keywords": [
+    "css",
+    "functional"
+  ],
+  "author": "Filipe Linhares <lip.linhares@gmail.com> (http://filipelinhares.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/filipelinhares/funkcss-responsive/issues"
+  },
+  "homepage": "https://github.com/filipelinhares/funkcss-responsive#readme",
+  "scripts": {
+    "test": "stylelint lib/*.css"
+  },
+  "devDependencies": {
+    "css-mqpacker": "^4.0.1",
+    "cssnano": "^3.5.2",
+    "del": "^2.2.0",
+    "gulp": "^3.9.0",
+    "gulp-postcss": "^6.0.1",
+    "gulp-rename": "^1.2.2",
+    "postcss-cssnext": "^2.5.2",
+    "postcss-for": "^2.0.1",
+    "postcss-import": "^8.1.0",
+    "postcss-mq-optimize": "0.0.0",
+    "postcss-nested": "^1.0.0",
+    "postcss-reporter": "^1.3.0",
+    "postcss-url": "^5.1.1",
+    "stylelint": "^6.1.1"
+  }
+}
