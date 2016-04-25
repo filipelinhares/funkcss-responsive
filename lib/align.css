@@ -4,8 +4,6 @@
 
 */
 
-/* # ========== Small screen */
-
 @media (--breakpoint-sm) {
   .sm-align-both {
     top: 50%;
@@ -19,8 +17,6 @@
   }
 }
 
-/* # ========== Medium screen */
-
 @media (--breakpoint-md) {
   .md-align-both {
     top: 50%;
@@ -33,8 +29,6 @@
     transform: translateY(-50%);
   }
 }
-
-/* # ========== Large screen */
 
 @media (--breakpoint-lg) {
   .lg-align-both {

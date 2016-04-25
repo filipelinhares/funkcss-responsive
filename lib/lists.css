@@ -45,7 +45,7 @@
   .lg-list-l { list-style-type: lower-alpha; }
 }
 
-/* # ========== list-helpers: */
+/* # ========== list-helpers */
 
 @media (--breakpoint-sm) {
   .sm-list-inline {

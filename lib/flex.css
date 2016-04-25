@@ -113,7 +113,7 @@
   .lg-jc-sa { justify-content: space-around; }
 }
 
-/* # ========== flex-helpers: */
+/* # ========== flex-helpers */
 
 @media (--breakpoint-sm) {
   .sm-flx-auto {

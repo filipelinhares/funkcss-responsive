@@ -4,6 +4,8 @@
 
 */
 
+/* # ========== object-fit: */
+
 @media (--breakpoint-sm) {
   .sm-of-ct { object-fit: contain; }
   .sm-of-cv { object-fit: cover; }
