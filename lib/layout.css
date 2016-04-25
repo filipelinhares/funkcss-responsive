@@ -88,6 +88,80 @@
   .lg-fl-n { float: none; }
 }
 
+/* # ========== position: */
+
+@media (--breakpoint-sm) {
+  .sm-pos-s { position: static; }
+  .sm-pos-st { position: sticky; }
+  .sm-pos-r { position: relative; }
+  .sm-pos-a { position: absolute; }
+  .sm-pos-f { position: fixed; }
+}
+
+@media (--breakpoint-md) {
+  .md-pos-s { position: static; }
+  .md-pos-st { position: sticky; }
+  .md-pos-r { position: relative; }
+  .md-pos-a { position: absolute; }
+  .md-pos-f { position: fixed; }
+}
+
+@media (--breakpoint-lg) {
+  .lg-pos-s { position: static; }
+  .lg-pos-st { position: sticky; }
+  .lg-pos-r { position: relative; }
+  .lg-pos-a { position: absolute; }
+  .lg-pos-f { position: fixed; }
+}
+
+/* # ========== directions: */
+
+@for $i from 0 to 30 by 5 {
+  @media (--breakpoint-sm) {
+    .sm-t-$(i) { top: $(i)px; }
+    .sm-r-$(i) { right: $(i)px; }
+    .sm-b-$(i) { bottom: $(i)px; }
+    .sm-l-$(i) { left: $(i)px; }
+  }
+
+  @media (--breakpoint-md) {
+    .md-t-$(i) { top: $(i)px; }
+    .md-r-$(i) { right: $(i)px; }
+    .md-b-$(i) { bottom: $(i)px; }
+    .md-l-$(i) { left: $(i)px; }
+  }
+
+  @media (--breakpoint-lg) {
+    .lg-t-$(i) { top: $(i)px; }
+    .lg-r-$(i) { right: $(i)px; }
+    .lg-b-$(i) { bottom: $(i)px; }
+    .lg-l-$(i) { left: $(i)px; }
+  }
+}
+
+@for $i from 40 to 100 by 10 {
+  @media (--breakpoint-sm) {
+    .sm-t-$(i) { top: $(i)px; }
+    .sm-r-$(i) { right: $(i)px; }
+    .sm-b-$(i) { bottom: $(i)px; }
+    .sm-l-$(i) { left: $(i)px; }
+  }
+
+  @media (--breakpoint-md) {
+    .md-t-$(i) { top: $(i)px; }
+    .md-r-$(i) { right: $(i)px; }
+    .md-b-$(i) { bottom: $(i)px; }
+    .md-l-$(i) { left: $(i)px; }
+  }
+
+  @media (--breakpoint-lg) {
+    .lg-t-$(i) { top: $(i)px; }
+    .lg-r-$(i) { right: $(i)px; }
+    .lg-b-$(i) { bottom: $(i)px; }
+    .lg-l-$(i) { left: $(i)px; }
+  }
+}
+
 /* # ========== z-index:  */
 
 @for $i from 0 to 9 {

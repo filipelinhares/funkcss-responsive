@@ -1,6 +1,6 @@
 /*
 
-  OBJECT-FIT HELPERS
+  OBJECTS HELPERS
 
 */
 
@@ -26,4 +26,83 @@
   .lg-of-f { object-fit: fill; }
   .lg-of-n { object-fit: none; }
   .lg-of-sd { object-fit: scale-down; }
+}
+
+/* # ========== backgrounds: */
+
+@media (--breakpoint-sm) {
+  .sm-bgs-cv { background-size: cover; }
+  .sm-bgs-ct { background-size: contain; }
+  .sm-bgs-full { background-size: 100% 100%; }
+}
+
+@media (--breakpoint-sm) {
+  .sm-bgp-c { background-position: center; }
+  .sm-bgp-t { background-position: top; }
+  .sm-bgp-r { background-position: right; }
+  .sm-bgp-l { background-position: left; }
+  .sm-bgp-b { background-position: bottom; }
+}
+
+@media (--breakpoint-sm) {
+  .sm-bgr-n { background-repeat: no-repeat; }
+  .sm-bgr-y { background-repeat: repeat-y; }
+  .sm-bgr-x { background-repeat: repeat-x; }
+}
+
+@media (--breakpoint-md) {
+  .md-bgs-cv { background-size: cover; }
+  .md-bgs-ct { background-size: contain; }
+  .md-bgs-full { background-size: 100% 100%; }
+}
+
+@media (--breakpoint-md) {
+  .md-bgp-c { background-position: center; }
+  .md-bgp-t { background-position: top; }
+  .md-bgp-r { background-position: right; }
+  .md-bgp-l { background-position: left; }
+  .md-bgp-b { background-position: bottom; }
+}
+
+@media (--breakpoint-md) {
+  .md-bgr-n { background-repeat: no-repeat; }
+  .md-bgr-y { background-repeat: repeat-y; }
+  .md-bgr-x { background-repeat: repeat-x; }
+}
+
+@media (--breakpoint-lg) {
+  .lg-bgs-cv { background-size: cover; }
+  .lg-bgs-ct { background-size: contain; }
+  .lg-bgs-full { background-size: 100% 100%; }
+}
+
+@media (--breakpoint-lg) {
+  .lg-bgp-c { background-position: center; }
+  .lg-bgp-t { background-position: top; }
+  .lg-bgp-r { background-position: right; }
+  .lg-bgp-l { background-position: left; }
+  .lg-bgp-b { background-position: bottom; }
+}
+
+@media (--breakpoint-lg) {
+  .lg-bgr-n { background-repeat: no-repeat; }
+  .lg-bgr-y { background-repeat: repeat-y; }
+  .lg-bgr-x { background-repeat: repeat-x; }
+}
+
+/* # ========== resize: */
+
+@media (--breakpoint-sm) {
+  .sm-rsz-v { resize: vertical; }
+  .sm-rsz-h { resize: horizontal; }
+}
+
+@media (--breakpoint-md) {
+  .md-rsz-v { resize: vertical; }
+  .md-rsz-h { resize: horizontal; }
+}
+
+@media (--breakpoint-lg) {
+  .lg-rsz-v { resize: vertical; }
+  .lg-rsz-h { resize: horizontal; }
 }
