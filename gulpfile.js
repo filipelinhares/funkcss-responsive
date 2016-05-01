@@ -10,7 +10,6 @@ var postCSSArray = [
   require('postcss-for')(),
   require('postcss-reporter')(),
   require('css-mqpacker')(),
-  require('postcss-mq-optimize')(),
   require('cssnano')()
 ];
 
