@@ -116,57 +116,57 @@
 /* # ========== flex-helpers */
 
 @media (--breakpoint-sm) {
-  .sm-flx-auto {
+  .sm-fx-auto {
     flex: 1 1 auto;
     min-width: 0;
     min-height: 0;
   }
 
-  .sm-flx-none { flex: none; }
-  .sm-flx-grow { flex-grow: 1; }
-  .sm-flx-shrink { flex-shrink: 1; }
+  .sm-fx-none { flex: none; }
+  .sm-fx-grow { flex-grow: 1; }
+  .sm-fx-shrink { flex-shrink: 1; }
 }
 
 @media (--breakpoint-md) {
-  .md-flx-auto {
+  .md-fx-auto {
     flex: 1 1 auto;
     min-width: 0;
     min-height: 0;
   }
 
-  .md-flx-none { flex: none; }
-  .md-flx-grow { flex-grow: 1; }
-  .md-flx-shrink { flex-shrink: 1; }
+  .md-fx-none { flex: none; }
+  .md-fx-grow { flex-grow: 1; }
+  .md-fx-shrink { flex-shrink: 1; }
 }
 
 @media (--breakpoint-lg) {
-  .lg-flx-auto {
+  .lg-fx-auto {
     flex: 1 1 auto;
     min-width: 0;
     min-height: 0;
   }
 
-  .lg-flx-none { flex: none; }
-  .lg-flx-grow { flex-grow: 1; }
-  .lg-flx-shrink { flex-shrink: 1; }
+  .lg-fx-none { flex: none; }
+  .lg-fx-grow { flex-grow: 1; }
+  .lg-fx-shrink { flex-shrink: 1; }
 }
 
 /* # ========== order: */
 
 @for $i from 0 to 10 {
   @media (--breakpoint-sm) {
-    .sm-order-$(i) { order: $i; }
+    .sm-ord-$(i) { order: $i; }
   }
 }
 
 @for $i from 0 to 10 {
   @media (--breakpoint-md) {
-    .md-order-$(i) { order: $i; }
+    .md-ord-$(i) { order: $i; }
   }
 }
 
 @for $i from 0 to 10 {
   @media (--breakpoint-lg) {
-    .lg-order-$(i) { order: $i; }
+    .lg-ord-$(i) { order: $i; }
   }
 }
