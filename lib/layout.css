@@ -116,49 +116,47 @@
 
 /* # ========== directions */
 
-@for $i from 0 to 30 by 5 {
-  @media (--breakpoint-sm) {
-    .sm-t-$(i) { top: $(i)px; }
-    .sm-r-$(i) { right: $(i)px; }
-    .sm-b-$(i) { bottom: $(i)px; }
-    .sm-l-$(i) { left: $(i)px; }
-  }
-
-  @media (--breakpoint-md) {
-    .md-t-$(i) { top: $(i)px; }
-    .md-r-$(i) { right: $(i)px; }
-    .md-b-$(i) { bottom: $(i)px; }
-    .md-l-$(i) { left: $(i)px; }
-  }
-
-  @media (--breakpoint-lg) {
-    .lg-t-$(i) { top: $(i)px; }
-    .lg-r-$(i) { right: $(i)px; }
-    .lg-b-$(i) { bottom: $(i)px; }
-    .lg-l-$(i) { left: $(i)px; }
-  }
+@media (--breakpoint-sm) {
+  .sm-t-0 { top: 0; }
+  .sm-r-0 { right: 0; }
+  .sm-b-0 { bottom: 0; }
+  .sm-l-0 { left: 0; }
 }
 
-@for $i from 40 to 100 by 10 {
+@media (--breakpoint-md) {
+  .md-t-0 { top: 0; }
+  .md-r-0 { right: 0; }
+  .md-b-0 { bottom: 0; }
+  .md-l-0 { left: 0; }
+}
+
+@media (--breakpoint-lg) {
+  .lg-t-0 { top: 0; }
+  .lg-r-0 { right: 0; }
+  .lg-b-0 { bottom: 0; }
+  .lg-l-0 { left: 0; }
+}
+
+@for $i from 1 to 4 {
   @media (--breakpoint-sm) {
-    .sm-t-$(i) { top: $(i)px; }
-    .sm-r-$(i) { right: $(i)px; }
-    .sm-b-$(i) { bottom: $(i)px; }
-    .sm-l-$(i) { left: $(i)px; }
+    .sm-t-$(i) { top: var(--gap-$(i)); }
+    .sm-r-$(i) { right: var(--gap-$(i)); }
+    .sm-b-$(i) { bottom: var(--gap-$(i)); }
+    .sm-l-$(i) { left: var(--gap-$(i)); }
   }
 
   @media (--breakpoint-md) {
-    .md-t-$(i) { top: $(i)px; }
-    .md-r-$(i) { right: $(i)px; }
-    .md-b-$(i) { bottom: $(i)px; }
-    .md-l-$(i) { left: $(i)px; }
+    .md-t-$(i) { top: var(--gap-$(i)); }
+    .md-r-$(i) { right: var(--gap-$(i)); }
+    .md-b-$(i) { bottom: var(--gap-$(i)); }
+    .md-l-$(i) { left: var(--gap-$(i)); }
   }
 
   @media (--breakpoint-lg) {
-    .lg-t-$(i) { top: $(i)px; }
-    .lg-r-$(i) { right: $(i)px; }
-    .lg-b-$(i) { bottom: $(i)px; }
-    .lg-l-$(i) { left: $(i)px; }
+    .lg-t-$(i) { top: var(--gap-$(i)); }
+    .lg-r-$(i) { right: var(--gap-$(i)); }
+    .lg-b-$(i) { bottom: var(--gap-$(i)); }
+    .lg-l-$(i) { left: var(--gap-$(i)); }
   }
 }
 

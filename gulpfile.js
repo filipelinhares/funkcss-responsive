@@ -6,10 +6,10 @@ var del = require('del');
 var postCSSArray = [
   require("postcss-import")(),
   require("postcss-url")(),
-  require("postcss-cssnext")(),
   require('postcss-for')(),
   require('postcss-reporter')(),
   require('css-mqpacker')(),
+  require("postcss-cssnext")(),
   require('cssnano')({ autoprefixer: false })
 ];
 
