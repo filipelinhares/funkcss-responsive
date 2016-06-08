@@ -10,7 +10,7 @@ var postCSSArray = [
   require('postcss-for')(),
   require('postcss-reporter')(),
   require('css-mqpacker')(),
-  require('cssnano')()
+  require('cssnano')({ autoprefixer: false })
 ];
 
 gulp.task('clean', function() {
@@ -18,9 +18,11 @@ gulp.task('clean', function() {
 });
 
 gulp.task('postcss', ['clean'], function () {
-  return gulp.src('lib/funk-responsive.css')
+  return gulp.src('lib/index.css')
     .pipe(postcss(postCSSArray))
     .pipe(rename({
+      prefix: 'funkcss-',
+      basename: 'responsive',
       suffix: '.min'
     }))
     .pipe(gulp.dest('dist/'))

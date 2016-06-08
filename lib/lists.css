@@ -45,28 +45,3 @@
   .lg-list-l { list-style-type: lower-alpha; }
 }
 
-/* # ========== list-helpers */
-
-@media (--breakpoint-sm) {
-  .sm-list-inline {
-    > li {
-      display: inline-block;
-    }
-  }
-}
-
-@media (--breakpoint-md) {
-  .md-list-inline {
-    > li {
-      display: inline-block;
-    }
-  }
-}
-
-@media (--breakpoint-lg) {
-  .lg-list-inline {
-    > li {
-      display: inline-block;
-    }
-  }
-}
