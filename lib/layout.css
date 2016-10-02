@@ -7,6 +7,7 @@
 /* # ========== display: */
 
 @media (--breakpoint-sm) {
+  .sm-d-n { display: none; }
   .sm-d-b { display: block; }
   .sm-d-ib { display: inline-block; }
   .sm-d-i { display: inline; }
@@ -15,6 +16,7 @@
 }
 
 @media (--breakpoint-md) {
+  .md-d-n { display: none; }
   .md-d-b { display: block; }
   .md-d-ib { display: inline-block; }
   .md-d-i { display: inline; }
@@ -23,6 +25,7 @@
 }
 
 @media (--breakpoint-lg) {
+  .lg-d-n { display: none; }
   .lg-d-b { display: block; }
   .lg-d-ib { display: inline-block; }
   .lg-d-i { display: inline; }
@@ -86,6 +89,26 @@
   .lg-fl-l { float: left; }
   .lg-fl-r { float: right; }
   .lg-fl-n { float: none; }
+}
+
+/* # ========== vertical-align: */
+
+@media (--breakpoint-sm) {
+  .sm-va-t { vertical-align: top; }
+  .sm-va-m { vertical-align: center; }
+  .sm-va-b { vertical-align: bottom; }
+}
+
+@media (--breakpoint-md) {
+  .md-va-t { vertical-align: top; }
+  .md-va-m { vertical-align: center; }
+  .md-va-b { vertical-align: bottom; }
+}
+
+@media (--breakpoint-lg) {
+  .lg-va-t { vertical-align: top; }
+  .lg-va-m { vertical-align: center; }
+  .lg-va-b { vertical-align: bottom; }
 }
 
 /* # ========== position: */

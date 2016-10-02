@@ -1,4 +1,9 @@
-/* # ========== Helpers */
+/*!
+ * funkcss responsive • v0.3.0
+ * MIT License
+ * github.com/filipelinhares/funkcss-responsive
+ */
+
 @import "media-queries";
 @import "default-gaps";
 

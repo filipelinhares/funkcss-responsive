@@ -17,6 +17,8 @@
   .sm-w-90 { width: 90%; }
   .sm-w-100 { width: 100%; }
 
+  .sm-maw-100 { max-width: 100%; }
+
   .sm-h-100 { height: 100vh; }
 }
 
@@ -33,6 +35,8 @@
   .md-w-90 { width: 90%; }
   .md-w-100 { width: 100%; }
 
+  .md-maw-100 { max-width: 100%; }
+
   .md-h-100 { height: 100vh; }
 }
 
@@ -48,6 +52,8 @@
   .lg-w-80 { width: 80%; }
   .lg-w-90 { width: 90%; }
   .lg-w-100 { width: 100%; }
+
+  .lg-maw-100 { max-width: 100%; }
 
   .lg-h-100 { height: 100vh; }
 }
